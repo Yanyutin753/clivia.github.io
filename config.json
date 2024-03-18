@@ -1,6 +1,12 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
+    "title":"Lamb Blog",
+    "subTitle":"Best Wishes!",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last"
+    "displayTitle":"Lamb Blog",
+    "homeUrl":"http://blog.clivia.fun",
+    "faviconUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "email":"3254822118@qq.com",
+    "startSite":"9/9/2023",
+    "onePageListNum":9
 }
