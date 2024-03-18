@@ -1,6 +1,6 @@
-# Lamb Blog :link: https://Yanyutin753.github.io/clivia.github.io 
-### :page_facing_up: [2](https://Yanyutin753.github.io/clivia.github.io/tag.html) 
+# Lamb Blog :link: http://blog.clivia.fun 
+### :page_facing_up: [2](http://blog.clivia.fun/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 19 
-### :alarm_clock: 2024-03-18 23:43:29 
+### :alarm_clock: 2024-03-18 23:45:21 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
