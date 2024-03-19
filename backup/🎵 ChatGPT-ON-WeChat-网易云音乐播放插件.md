@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">🎵 ChatGPT-ON-WeChat-网易云音乐播放插件</h1>
+<h1 align="center">🎵 ChatGPT-ON-WeChat 网易云音乐播放插件</h1>
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Yanyutin753/chatgpt-wechat-singSong?style=large)
 
