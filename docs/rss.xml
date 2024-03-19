@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/4f539711-98a1-462a-b871-576d3c855ad6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 19 Mar 2024 07:04:20 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>🎶 COW 网易云音乐播放插件</title><link>http://blog.clivia.fun/post/%F0%9F%8E%B6%20COW%20-wang-yi-yun-yin-le-bo-fang-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/4f539711-98a1-462a-b871-576d3c855ad6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 19 Mar 2024 07:13:51 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>🔍 COW Google搜素插件</title><link>http://blog.clivia.fun/post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
+&#13;
+# 🔍 ChatGPT-ON-WeChat Google搜素插件&#13;
+&#13;
+![GitHub stars](https://img.shields.io/github/stars/Yanyutin753/googleSearch-On-Wechat?style=flat-square&amp;label=Stars&amp;logo=github) ![GitHub forks](https://img.shields.io/github/forks/Yanyutin753/googleSearch-On-Wechat.svg?style=flat-square&amp;label=Forks&amp;logo=github)&#13;
+&#13;
+## 适合chatgpt-on-wechat项目插件&#13;
+&lt;/div&gt;&#13;
+&#13;
+##  插件介绍&#13;
+这个插件的目标是通过Google搜索或图片搜索获取信息，使用ChatGPT对结果进行进一步的概括和分析，以得到更准确更详细的答案。</description><guid isPermaLink="true">http://blog.clivia.fun/post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html</guid><pubDate>Tue, 19 Mar 2024 07:13:20 +0000</pubDate></item><item><title>🎶 COW 网易云音乐播放插件</title><link>http://blog.clivia.fun/post/%F0%9F%8E%B6%20COW%20-wang-yi-yun-yin-le-bo-fang-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
 &#13;
 &lt;h1 align="center"&gt;🎵 ChatGPT-ON-WeChat 网易云音乐播放插件&lt;/h1&gt;&#13;
 &#13;
