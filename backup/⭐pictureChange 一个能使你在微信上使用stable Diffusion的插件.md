@@ -1,3 +1,15 @@
+<div align="center">
+
+# 🖼️ ChatGPT-ON-WeChat PictureChange插件
+
+![GitHub stars](https://img.shields.io/github/stars/Yanyutin753/pictureChange?style=flat-square&label=Stars&logo=github) ![GitHub forks](https://img.shields.io/github/forks/Yanyutin753/pictureChange.svg?style=flat-square&label=Forks&logo=github)
+
+## 适用于chatgpt-on-wechat项目插件 
+## ✔支持运用stable diffusion webui画图，图生图 
+## ✔支持企业微信，个人号，公众号部署
+
+</div>
+
 ## 插件描述
 
 - 支持运用百度AI进行图像处理
