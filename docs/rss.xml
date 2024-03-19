@@ -1,2 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Mon, 18 Mar 2024 16:53:02 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>test3</title><link>http://blog.clivia.fun/post/test3.html</link><description>test3。</description><guid isPermaLink="true">http://blog.clivia.fun/post/test3.html</guid><pubDate>Mon, 18 Mar 2024 16:52:36 +0000</pubDate></item><item><title>test2</title><link>http://blog.clivia.fun/post/test2.html</link><description>## test2。</description><guid isPermaLink="true">http://blog.clivia.fun/post/test2.html</guid><pubDate>Mon, 18 Mar 2024 16:25:46 +0000</pubDate></item><item><title>test</title><link>http://blog.clivia.fun/post/test.html</link><description>test。</description><guid isPermaLink="true">http://blog.clivia.fun/post/test.html</guid><pubDate>Mon, 18 Mar 2024 15:40:00 +0000</pubDate></item><item><title>My First Blog</title><link>http://blog.clivia.fun/post/My%20First%20Blog.html</link><description># my first blog。</description><guid isPermaLink="true">http://blog.clivia.fun/post/My%20First%20Blog.html</guid><pubDate>Mon, 18 Mar 2024 15:28:03 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Mon, 18 Mar 2024 18:07:34 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>⭐pictureChange 一个能使你在微信上使用stable Diffusion的插件</title><link>http://blog.clivia.fun/post/%E2%AD%90pictureChange%20-yi-ge-neng-shi-ni-zai-wei-xin-shang-shi-yong-stable%20Diffusion-de-cha-jian.html</link><description>## 插件描述&#13;
+&#13;
+- 支持运用百度AI进行图像处理&#13;
+- 支持运用stable diffusion webui进行图像处理&#13;
+- 支持运用stable diffusion webui画图&#13;
+- 支持多种sd模型&#13;
+- 支持并发控制&#13;
+- 支持管理员修改Host&#13;
+- 支持自定义模板&#13;
+- 支持管理员开关群聊的图生图&#13;
+- 支持管理员开关图生图功能，不影响文生图&#13;
+- 支持企业微信，个人号，公众号部署&#13;
+&#13;
+## 环境要求&#13;
+&#13;
+使用前先安装stable diffusion webui，并在它的启动参数中添加 "--api"。</description><guid isPermaLink="true">http://blog.clivia.fun/post/%E2%AD%90pictureChange%20-yi-ge-neng-shi-ni-zai-wei-xin-shang-shi-yong-stable%20Diffusion-de-cha-jian.html</guid><pubDate>Mon, 18 Mar 2024 17:15:51 +0000</pubDate></item><item><title>My First Blog</title><link>http://blog.clivia.fun/post/My%20First%20Blog.html</link><description># my first blog。</description><guid isPermaLink="true">http://blog.clivia.fun/post/My%20First%20Blog.html</guid><pubDate>Mon, 18 Mar 2024 15:28:03 +0000</pubDate></item></channel></rss>
