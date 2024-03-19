@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/4f539711-98a1-462a-b871-576d3c855ad6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 19 Mar 2024 07:20:20 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>🔍 COW Google搜素插件</title><link>http://blog.clivia.fun/post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/4f539711-98a1-462a-b871-576d3c855ad6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 19 Mar 2024 07:23:42 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>🔍 COW Google搜素插件</title><link>http://blog.clivia.fun/post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
 &#13;
 # 🔍 ChatGPT-ON-WeChat Google搜素插件&#13;
 &#13;
@@ -45,4 +45,41 @@
 &#13;
 ## 环境要求&#13;
 &#13;
-使用前先安装stable diffusion webui，并在它的启动参数中添加 "--api"。</description><guid isPermaLink="true">http://blog.clivia.fun/post/%E2%AD%90pictureChange%20-yi-ge-neng-shi-ni-zai-wei-xin-shang-shi-yong-stable%20Diffusion-de-cha-jian.html</guid><pubDate>Mon, 18 Mar 2024 17:15:51 +0000</pubDate></item><item><title>Hi there 👋</title><link>http://blog.clivia.fun/post/Hi%20there%20%F0%9F%91%8B.html</link><description># my first blog。</description><guid isPermaLink="true">http://blog.clivia.fun/post/Hi%20there%20%F0%9F%91%8B.html</guid><pubDate>Mon, 18 Mar 2024 15:28:03 +0000</pubDate></item></channel></rss>
+使用前先安装stable diffusion webui，并在它的启动参数中添加 "--api"。</description><guid isPermaLink="true">http://blog.clivia.fun/post/%E2%AD%90pictureChange%20-yi-ge-neng-shi-ni-zai-wei-xin-shang-shi-yong-stable%20Diffusion-de-cha-jian.html</guid><pubDate>Mon, 18 Mar 2024 17:15:51 +0000</pubDate></item><item><title>Hi there 👋</title><link>http://blog.clivia.fun/post/Hi%20there%20%F0%9F%91%8B.html</link><description>&#13;
+&lt;div align="center"&gt;&#13;
+&#13;
+  # Hi there 👋&#13;
+    &#13;
+  &lt;img src="https://profile-counter.glitch.me/{Yanyutin753}/count.svg" /&gt;&#13;
+  &#13;
+  &lt;p align="center"&gt; From Guangzhou (&lt;a href="https://en.wikipedia.org/wiki/Guangzhou"&gt;广州&lt;/a&gt;), China.  &lt;/p&gt;&#13;
+  &lt;p align="center"&gt;Studying at SCNU. &lt;/p&gt;&#13;
+  &lt;p align="center"&gt; Coding 1 year. &lt;/p&gt;&#13;
+  &#13;
+  &lt;div align="center"&gt;&#13;
+  &lt;details&gt;&#13;
+  &lt;summary&gt;✨More (Github Stats, Contact)&lt;/summary&gt;&#13;
+  &#13;
+  &lt;div align="left"&gt;&#13;
+  &lt;!--&#13;
+  &lt;p align="center"&gt; &#13;
+  ⚒️Perfecting the world with: JavaScript, Java, C , Python⚒️&#13;
+  &lt;/p&gt; --&gt;&#13;
+  &#13;
+  ### 📊 GitHub Stats &#13;
+  &lt;div align="center"&gt;&#13;
+  &lt;p &gt; &lt;img width="300em" src="https://github-readme-stats.vercel.app/api?username=Yanyutin753&amp;title_color=fa4694&amp;count_private=true&amp;theme=jolly" alt="RockChinQ" /&gt;&#13;
+  &lt;/p&gt;&#13;
+  &#13;
+  &lt;/div&gt;&#13;
+&#13;
+  &#13;
+  ### 📲 联系方式 CONTACT ME&#13;
+    &#13;
+  - Email: 3254822118@qq.com&#13;
+  - QQ: 3254822118&#13;
+  &#13;
+  &lt;/details&gt;&#13;
+  &lt;/div&gt;&#13;
+&lt;/div&gt;&#13;
+。</description><guid isPermaLink="true">http://blog.clivia.fun/post/Hi%20there%20%F0%9F%91%8B.html</guid><pubDate>Mon, 18 Mar 2024 15:28:03 +0000</pubDate></item></channel></rss>
