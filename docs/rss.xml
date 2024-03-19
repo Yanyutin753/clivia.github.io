@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/4f539711-98a1-462a-b871-576d3c855ad6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 19 Mar 2024 06:44:44 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>⭐pictureChange 一个能使你在微信上使用stable Diffusion的插件</title><link>http://blog.clivia.fun/post/%E2%AD%90pictureChange%20-yi-ge-neng-shi-ni-zai-wei-xin-shang-shi-yong-stable%20Diffusion-de-cha-jian.html</link><description>## 插件描述&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/4f539711-98a1-462a-b871-576d3c855ad6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 19 Mar 2024 07:01:55 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>🎵 ChatGPT-ON-WeChat-网易云音乐播放插件</title><link>http://blog.clivia.fun/post/%F0%9F%8E%B5%20ChatGPT-ON-WeChat--wang-yi-yun-yin-le-bo-fang-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
+&#13;
+&lt;h1 align="center"&gt;🎵 ChatGPT-ON-WeChat-网易云音乐播放插件&lt;/h1&gt;&#13;
+&#13;
+![GitHub Repo stars](https://img.shields.io/github/stars/Yanyutin753/chatgpt-wechat-singSong?style=large)&#13;
+&#13;
+&#13;
+&lt;/div&gt;&#13;
+&#13;
+## 🔌 适用于ChatGPT-on-WeChat项目的插件&#13;
+这是一个用于在您的应用中播放网易云音乐的插件，通过利用网易云音乐的API，能够实现播放指定音乐、用户登录与VIP音乐的播放功能。</description><guid isPermaLink="true">http://blog.clivia.fun/post/%F0%9F%8E%B5%20ChatGPT-ON-WeChat--wang-yi-yun-yin-le-bo-fang-cha-jian.html</guid><pubDate>Tue, 19 Mar 2024 06:51:44 +0000</pubDate></item><item><title>⭐pictureChange 一个能使你在微信上使用stable Diffusion的插件</title><link>http://blog.clivia.fun/post/%E2%AD%90pictureChange%20-yi-ge-neng-shi-ni-zai-wei-xin-shang-shi-yong-stable%20Diffusion-de-cha-jian.html</link><description>## 插件描述&#13;
 &#13;
 - 支持运用百度AI进行图像处理&#13;
 - 支持运用stable diffusion webui进行图像处理&#13;
