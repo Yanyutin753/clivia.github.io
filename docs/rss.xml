@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/756aacbd-dd82-4bc6-a8fd-6e426106c0e6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Wed, 20 Mar 2024 04:51:41 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>🔍 COW Google搜素插件</title><link>http://blog.clivia.fun/post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/756aacbd-dd82-4bc6-a8fd-6e426106c0e6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Wed, 20 Mar 2024 05:07:07 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>✏️FakeApiTool-One-API</title><link>http://blog.clivia.fun/post/%E2%9C%8F%EF%B8%8FFakeApiTool-One-API.html</link><description>&lt;div align="center"&gt;&#13;
+&#13;
+#  ✏️[FakeApiTool](https://github.com/Yanyutin753/fakeApiTool-One-API)&#13;
+&#13;
+![GitHub stars](https://img.shields.io/github/stars/Yanyutin753/fakeApiTool-One-API?style=flat-square&amp;label=Stars&amp;logo=github) ![GitHub forks](https://img.shields.io/github/forks/Yanyutin753/fakeApiTool-One-API.svg?style=flat-square&amp;label=Forks&amp;logo=github)&#13;
+![](https://img.shields.io/badge/license-MIT-blue.svg)&#13;
+## 基于 [One API](https://github.com/songquanpeng/one-api) 和 [Pandora](https://ai.fakeopen.com/) 中的 [FakeApi](https://ai.fakeopen.com/) 的高效工具，旨在以更简便的方式使用[pandora](https://ai.fakeopen.com/)资源，让你能便捷地享受 chatGPT&#13;
+&lt;/div&gt;&#13;
+&#13;
+&#13;
+&#13;
+## 🌈概要&#13;
+**[FakeApiToo](https://github.com/Yanyutin753/fakeApiTool-One-API)** 是一款基于 [One API](https://github.com/songquanpeng/one-api) 和 [Pandora](https://ai.fakeopen.com/) 中的 [FakeApi](https://ai.fakeopen.com/) 的高效工具，旨在以更简便的方式使用[pandora](https://ai.fakeopen.com/)资源，让你能便捷地享受 chatGPT。</description><guid isPermaLink="true">http://blog.clivia.fun/post/%E2%9C%8F%EF%B8%8FFakeApiTool-One-API.html</guid><pubDate>Wed, 20 Mar 2024 05:06:39 +0000</pubDate></item><item><title>🔍 COW Google搜素插件</title><link>http://blog.clivia.fun/post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html</link><description>&lt;div align="center"&gt;&#13;
 &#13;
 # 🔍 ChatGPT-ON-WeChat Google搜素插件&#13;
 &#13;
