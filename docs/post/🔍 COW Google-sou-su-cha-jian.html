@@ -177,7 +177,11 @@ console.log("\n %c Yanyutin753 last %c https://github.com/Yanyutin753/Gmeek \n\n
 
 <script>
 
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 function openComments(){
     cm=document.getElementById("comments");
