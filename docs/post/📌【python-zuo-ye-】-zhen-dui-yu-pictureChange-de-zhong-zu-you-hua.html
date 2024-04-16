@@ -12,8 +12,9 @@
         else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
     </script>
     
-<meta name="description" content="Best Wishes!">
-<title>Lamb Blog</title>
+<meta name="description" content="📌【python作业】针对于pictureChange的重组优化">
+<title>📌【python作业】针对于pictureChange的重组优化</title>
+
 
 </head>
 <style>
@@ -24,125 +25,116 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </style>
 
 <style>
-.avatar {transition: 0.8s;width:64px;height:64px;object-fit: cover;}
-.avatar:hover{transform: scale(1.15) rotate(360deg);}
-#header h1 a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-family:Monaco;margin-left:8px;}
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
 .title-right{display:flex;margin:auto 0 0 auto;}
-.title-right button{margin-right:8px;padding:16px;}
-.title-right .circle{padding: 14px 16px;}
-
-.SideNav{min-width: 360px;}
-.SideNav-icon{margin-right: 16px}
-.SideNav-item .Label{color: #fff;margin-left:8px;}
-.d-flex{min-width:0;}
-.listTitle{overflow:hidden;white-space:nowrap;text-overflow: ellipsis;max-width: 100%;}
-.listLabels{white-space:nowrap;}
-.listLabels object{max-height:16px;max-width:24px;}
-
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
 @media (max-width: 600px) {
     body {padding: 8px;}
-    .avatar {width:40px;height:40px;}
-    .blogTitle{display:none;}
-    #buttonRSS{display:none;}
-    .LabelTime{display:none;}
+    .postTitle{font-size:24px;}
 }
 </style>
 
 
+
+
 <body>
     <div id="header">
-<h1>
-    <img src="https://github.com/Yanyutin753/clivia.github.io/assets/132346501/756aacbd-dd82-4bc6-a8fd-6e426106c0e6" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">Lamb Blog</a></h1>
+<h1 class="postTitle">📌【python作业】针对于pictureChange的重组优化</h1>
 <div class="title-right">
-    <a href="http://blog.clivia.fun/tag.html"><button id="buttonSearch" class="btn btn-invisible circle" title="搜索">
-        <svg class="octicon" width="16" height="16" >
-            <path id="pathSearch" fill-rule="evenodd"></path>
+    
+    <a href="http://blog.clivia.fun"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd" d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"></path>
+        </svg>
+    </button></a>
+
+    
+    <a href="https://github.com/Yanyutin753/clivia.github.io/issues/11" target="_blank"><button class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
         </svg>
     </button></a>
     
-    <a href="http://blog.clivia.fun/rss.xml" target="_blank"><button id="buttonRSS" class="btn btn-invisible circle" title="RSS">
-        <svg class="octicon" width="16" height="16" >
-            <path id="pathRSS" fill-rule="evenodd"></path>
-        </svg>
-    </button></a>
-    <button class="btn btn-invisible circle" onclick="modeSwitch()" title="切换主题">
+
+    <button class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
         <svg class="octicon" width="16" height="16" >
             <path id="themeSwitch" fill-rule="evenodd"></path>
         </svg>
     </button>
+
 </div>
 </div>
     <div id="content">
-<div style="margin-bottom: 16px;">Best Wishes!</div>
-<nav class="SideNav border">
-<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%F0%9F%93%8C%E3%80%90python-zuo-ye-%E3%80%91-zhen-dui-yu-pictureChange-de-zhong-zu-you-hua.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">📌【python作业】针对于pictureChange的重组优化</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#256ECE"><object><a style="color:#fff" href="http://blog.clivia.fun/tag.html#team projects">team projects</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-04-16</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E2%9C%8F%EF%B8%8FFakeApiTool-One-API.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">✏️FakeApiTool-One-API</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#7FF2D0"><object><a style="color:#fff" href="http://blog.clivia.fun/tag.html#ChatGpt">ChatGpt</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-20</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%F0%9F%94%8D%20COW%20Google-sou-su-cha-jian.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">🔍 COW Google搜素插件</span>
-    </div>
-    <div class="listLabels">
-        <span class="Label" style="background-color:#006b75">1</span>
-        <span class="Label LabelName" style="background-color:#0DB3F2"><object><a style="color:#fff" href="http://blog.clivia.fun/tag.html#COW">COW</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-19</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%F0%9F%8E%B6%20COW%20-wang-yi-yun-yin-le-bo-fang-cha-jian.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">🎶 COW 网易云音乐播放插件</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#0DB3F2"><object><a style="color:#fff" href="http://blog.clivia.fun/tag.html#COW">COW</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-19</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%F0%9F%96%BC%EF%B8%8F%20COW%20PictureChange-cha-jian.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">🖼️ COW PictureChange插件</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#0DB3F2"><object><a style="color:#fff" href="http://blog.clivia.fun/tag.html#COW">COW</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-19</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/Hi%20there%20%F0%9F%91%8B.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">Hi there 👋</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#7057ff"><object><a style="color:#fff" href="http://blog.clivia.fun/tag.html#good first issue">good first issue</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-18</span>
-    </div>
-</a>
-</nav>
+<div class="markdown-body" id="postBody"><p><strong>项目指南</strong></p>
+<p>本项目主要由以下几部分构成：</p>
+<ol>
+<li>
+<p>💠 <strong>文生图</strong>： 我们将通过<strong>sd</strong>和<strong>dall-e-3</strong>两种方式，使用主机上的 stable diffusion 模型或调用 dall-e-3 API 模型，进行创新绘画，用文字带来新的视觉体验。</p>
+</li>
+<li>
+<p>🌓 <strong>图生图</strong>： 利用 stable diffusion，我们设置图像作为输入，并产生新的图像输出。详细的实现方式可参考 <a href="https://github.com/Yanyutin753/pictureChange">pictureChange</a> 项目源码。</p>
+</li>
+<li>
+<p>💅 <strong>图生文</strong>： 通过调用我们的 API，使用特定模型将图像转化为有意义的文本，尽可能完整、准确地描述图像内容。</p>
+</li>
+<li>
+<p>🪄 <strong>图生音</strong>：</p>
+<ul>
+<li>我们将通过 API 调用模型进行图片分析。</li>
+<li>之后，分析结果将作为 prompt 输入到 suno，引导音乐创作。</li>
+</ul>
+</li>
+<li>
+<p>🧩 <strong>文生音</strong>： 我们会将获取到的文本作为 prompt 输入到 suno，让这些文字在音乐中找到生命。</p>
+</li>
+<li>
+<p>📱 <strong>文生表情包</strong>：</p>
+<ul>
+<li>
+<p>我们计划使用开源的 <a href="https://github.com/LLM-Red-Team/emo-visual-data">emo-visual-data</a> 数据集。同时，也会爬取一些新的表情包，并通过我的 API 进行表情包注解。</p>
+</li>
+<li>
+<p>不久的将来，我们会创建我们自己的智能体。</p>
+</li>
+<li>
+<p>使用 <a href="https://github.com/LLM-Red-Team/glm-free-api">glm-free-api</a> 允许我们调用智能体，执行文生表情包的操作。</p>
+</li>
+<li>
+<p>具体示例如下：</p>
+<div align="center">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Yanyutin753/clivia.github.io/assets/132346501/ab7d38a5-b286-4c30-a74d-1e03802e0f84"><img src="https://github.com/Yanyutin753/clivia.github.io/assets/132346501/ab7d38a5-b286-4c30-a74d-1e03802e0f84" width="400" height="400" style="max-width: 100%;"></a>
+</div>
+</li>
+<li>
+<p>具体操作如下：</p>
+</li>
+</ul>
+  <div align="center">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Yanyutin753/clivia.github.io/assets/132346501/470f99cf-d417-44cf-95a1-f3132a0e9e98"><img src="https://github.com/Yanyutin753/clivia.github.io/assets/132346501/470f99cf-d417-44cf-95a1-f3132a0e9e98" width="400" height="400" style="max-width: 100%;"></a>
+  </div>
+</li>
+<li>
+<p>📚 <strong>整理代码</strong>： 在所有开发工作完成后，我们将对代码进行仔细整理，以确保其整洁，并便于后续的维护和扩展。</p>
+</li>
+<li>
+<p>🛠️ <strong>测试实践</strong>： 确保代码和功能的正常运行非常关键。因此，我们会进行严格的测试实践，验证代码的功能并确认其能满足项目要求。</p>
+</li>
+</ol>
+<p><g-emoji class="g-emoji" alias="warning">⚠️</g-emoji> 注意：</p>
+<ol>
+<li>请确认所有参与者都已在 Github 上创建账号。</li>
+<li>我们将在 Github 上进行所有代码的开发和维护，并在完成后提交最终的项目代码。</li>
+</ol>
+<p>我们的目标不仅是完成这个项目，也希望在此过程中提升我们的编码技巧和对 git 的熟练度，同时还可以把手试试一些有趣的新项目。我们会在 <a href="https://github.com/Yanyutin753/pictureChange">pictureChange</a> 这个项目的基础上进行二次开发，以拓展其功能并实现我们的需求。</p>
+<p>最后，我们将把代码合并到同一个分支，并推送到 Github。希望我们的项目可以获得更多的⭐️，让更多人看到我们的成果。</p></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="http://blog.clivia.fun"> Lamb Blog </a>
 <p>
@@ -195,19 +187,45 @@ console.log("\n %c Yanyutin753 last %c https://github.com/Yanyutin753/Gmeek \n\n
 </script>
 
 <script>
-document.getElementById("pathSearch").setAttribute("d",IconList["search"]);
-document.getElementById("pathRSS").setAttribute("d",IconList["rss"]);
-iconTOP=document.getElementsByClassName("svgTop1");
-iconPost=document.getElementsByClassName("svgTop0");
-for(var i=0;i<iconTOP.length;i++){
-    iconTOP[i].setAttribute("d",IconList["upload"]);
-    iconTOP[i].parentNode.style.color="red";
-}
-for(var i=0;i<iconPost.length;i++){
-    iconPost[i].setAttribute("d",IconList["post"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","Yanyutin753/clivia.github.io");
+    script.setAttribute("issue-term","title");
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else{script.setAttribute("theme","github-light");}
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
 }
 
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
 
 </script>
+
+
+
 
 </html>
