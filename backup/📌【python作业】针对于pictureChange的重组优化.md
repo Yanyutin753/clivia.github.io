@@ -6,17 +6,17 @@
 
 2. 🌓 **图生图**： 利用 stable diffusion，我们设置图像作为输入，并产生新的图像输出。详细的实现方式可参考 [pictureChange](https://github.com/Yanyutin753/pictureChange) 项目源码。
 
-3. 💅 **图生文**： 通过调用我们的 API，使用特定模型将图像转化为有意义的文本，尽可能完整、准确地描述图像内容。
+3. 💅 **图生文**： 通过调用我们的 API，使用特定视觉模型将图像转化为有意义的文本，尽可能完整、准确地描述图像内容。
 
 4. 🪄 **图生音**：
-   - 我们将通过 API 调用模型进行图片分析。
-   - 之后，分析结果将作为 prompt 输入到 suno，引导音乐创作。
+   - 我们将通过 API 调用视觉模型来进行图片分析。
+   - 之后，分析结果将作为 prompt 输入到 [suno](https://suno.ai/)，引导音乐创作。
 
-5. 🧩 **文生音**： 我们会将获取到的文本作为 prompt 输入到 suno，让这些文字在音乐中找到生命。
+5. 🧩 **文生音**： 我们会将获取到的文本作为 prompt 输入到 [suno](https://suno.ai/)，让这些文字在音乐中找到生命。
 
 6. 📱 **文生表情包**： 
    - 我们计划使用开源的 [emo-visual-data](https://github.com/LLM-Red-Team/emo-visual-data) 数据集。同时，也会爬取一些新的表情包，并通过我的 API 进行表情包注解。
-   - 不久的将来，我们会创建我们自己的智能体。
+   - 不久的将来，我们将会通过[chatglm](https://chatglm.cn/)来创建一个属于我们自己的智能体。
    - 使用 [glm-free-api](https://github.com/LLM-Red-Team/glm-free-api) 允许我们调用智能体，执行文生表情包的操作。
    - 具体示例如下：
      <div align="center">

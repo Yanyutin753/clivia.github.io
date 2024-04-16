@@ -80,17 +80,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>🌓 <strong>图生图</strong>： 利用 stable diffusion，我们设置图像作为输入，并产生新的图像输出。详细的实现方式可参考 <a href="https://github.com/Yanyutin753/pictureChange">pictureChange</a> 项目源码。</p>
 </li>
 <li>
-<p>💅 <strong>图生文</strong>： 通过调用我们的 API，使用特定模型将图像转化为有意义的文本，尽可能完整、准确地描述图像内容。</p>
+<p>💅 <strong>图生文</strong>： 通过调用我们的 API，使用特定视觉模型将图像转化为有意义的文本，尽可能完整、准确地描述图像内容。</p>
 </li>
 <li>
 <p>🪄 <strong>图生音</strong>：</p>
 <ul>
-<li>我们将通过 API 调用模型进行图片分析。</li>
-<li>之后，分析结果将作为 prompt 输入到 suno，引导音乐创作。</li>
+<li>我们将通过 API 调用视觉模型来进行图片分析。</li>
+<li>之后，分析结果将作为 prompt 输入到 <a href="https://suno.ai/" rel="nofollow">suno</a>，引导音乐创作。</li>
 </ul>
 </li>
 <li>
-<p>🧩 <strong>文生音</strong>： 我们会将获取到的文本作为 prompt 输入到 suno，让这些文字在音乐中找到生命。</p>
+<p>🧩 <strong>文生音</strong>： 我们会将获取到的文本作为 prompt 输入到 <a href="https://suno.ai/" rel="nofollow">suno</a>，让这些文字在音乐中找到生命。</p>
 </li>
 <li>
 <p>📱 <strong>文生表情包</strong>：</p>
@@ -99,7 +99,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>我们计划使用开源的 <a href="https://github.com/LLM-Red-Team/emo-visual-data">emo-visual-data</a> 数据集。同时，也会爬取一些新的表情包，并通过我的 API 进行表情包注解。</p>
 </li>
 <li>
-<p>不久的将来，我们会创建我们自己的智能体。</p>
+<p>不久的将来，我们将会通过<a href="https://chatglm.cn/" rel="nofollow">chatglm</a>来创建一个属于我们自己的智能体。</p>
 </li>
 <li>
 <p>使用 <a href="https://github.com/LLM-Red-Team/glm-free-api">glm-free-api</a> 允许我们调用智能体，执行文生表情包的操作。</p>
