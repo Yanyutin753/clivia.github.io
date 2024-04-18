@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/756aacbd-dd82-4bc6-a8fd-6e426106c0e6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Tue, 16 Apr 2024 06:36:53 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>📌【python作业】针对于pictureChange的重组优化</title><link>http://blog.clivia.fun/post/%F0%9F%93%8C%E3%80%90python-zuo-ye-%E3%80%91-zhen-dui-yu-pictureChange-de-zhong-zu-you-hua.html</link><description>**项目指南**&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lamb Blog</title><link>http://blog.clivia.fun</link><description>Best Wishes!</description><copyright>Lamb Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/Yanyutin753/clivia.github.io/assets/132346501/756aacbd-dd82-4bc6-a8fd-6e426106c0e6</url><title>avatar</title><link>http://blog.clivia.fun</link></image><lastBuildDate>Thu, 18 Apr 2024 02:35:41 +0000</lastBuildDate><managingEditor>Lamb Blog</managingEditor><ttl>60</ttl><webMaster>Lamb Blog</webMaster><item><title>📌【python作业】针对于pictureChange的重组优化</title><link>http://blog.clivia.fun/post/%F0%9F%93%8C%E3%80%90python-zuo-ye-%E3%80%91-zhen-dui-yu-pictureChange-de-zhong-zu-you-hua.html</link><description>&lt;div align="center"&gt;&#13;
+&#13;
+# [AwesomePictureMusic](https://github.com/Yanyutin753/AwesomePictureMusic)&#13;
+### A python plugin for [Chatgpt On Wechat](https://github.com/zhayujie/chatgpt-on-wechat)，实现文本、图像和音乐和表情包的相互转化，为用户提供了更丰富的互动体验，探索了AI的各种可能性！&#13;
+&#13;
+&lt;br&gt;&#13;
+&lt;/div&gt;&#13;
+&#13;
+&#13;
+**项目指南**&#13;
 &#13;
 本项目主要由以下几部分构成：&#13;
 &#13;
